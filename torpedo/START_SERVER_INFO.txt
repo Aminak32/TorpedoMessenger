@@ -1,0 +1,7 @@
+Step 1: Start postfix
+
+Step 2: Run this
+
+uwsgi-http :9020 --wsgi-file /home/dan/Documents/Programming/Python/TorpedoMessenger/torpedo/torpedo/wsgi.py
+
+Step3: Website will be on port 8080

@@ -1,0 +1,27 @@
+@font-face {
+	font-family: droid;
+	src: url(fonts/droid.ttf);
+	font-stretch: expanded;
+}
+
+body{
+	background-color: #ededed;
+	font-family: droid;
+}
+#title{
+	text-align: center;
+}
+#subtitle{
+	text-align: center;
+}
+#description{
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#formContainer{
+	text-align: center;
+}
+#form{
+	display: inline-block;
+}

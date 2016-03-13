@@ -1,0 +1,21 @@
+{% load staticfiles %}
+<html>
+	<head>
+		<title>Potato</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	</head>
+	<body>
+		<h1 id = "title">Torpedo Texter</h1>
+		<h3 id = "subtitle">Text Messenger Spammer</h3>
+		<p id = "description">Bombard your friends with text messages with ease.
+			This currently supports Sprint, T-Mobile, Verizon, ATT and Virgin 
+			Mobile as carriers.
+		</p>
+		<div id = "formContainer">
+			<form id = "form" method = 'POST' action = ''>{% csrf_token %}
+				{{ form.as_p }}
+				<input type = 'submit'>
+			</form>
+		</div>
+	</body>
+</html>
